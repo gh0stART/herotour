@@ -1,0 +1,61 @@
+#hero-details {
+    margin: 2em 15%;
+    padding: 1em;
+    font-weight: 700;
+    border-radius: 1em;
+    background-color: #F0F0F0;
+    box-shadow: 0px 2px 5px 3px #D7D7D7
+}
+
+h2 {
+    display: inline-block;
+    color: #2AA684;
+    font-weight: 600;
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+p {
+    padding-bottom: 1em;
+    display: inline-block;
+    
+}
+
+label {
+    width: 4em;
+    margin-right: 1em;
+    display: inline-block;
+    text-align: right;
+    padding: 0.5em 0;
+    color: #4A4A4A;
+    border-radius: 0.5em;
+}  
+
+.detail {
+    padding: 0.5em;
+    background-color: #fff;
+    color: #A4A4A4;
+    border-radius: 0.5em;
+    width: 50%;
+    margin-bottom: 0.5em;
+    box-shadow: 0px 2px 3px 2px #D7D7D7;
+}
+
+button {
+    float: right;
+    margin-left: 2em;
+    font-weight: 700;
+    background-color: #FCB949;
+    color: #fff;
+    border: 0;
+    border-radius: 0.5em;
+    padding: 0.75em;
+    box-shadow: 0px 2px 3px 2px #D7D7D7;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #FCB949;
+}

@@ -1,0 +1,38 @@
+
+h3 {
+    font-size: 3em;
+    color: #2AA684;
+    margin: 0.25em 15%;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#top-heroes {
+    margin: 1em 15%;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-button {
+    background-color: #FCB949;
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: 700;
+    padding: 2em 0;
+    width: 100%;
+    margin: 1em;
+
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.hero-button:hover {
+    padding: 3em 0;
+}
+
+a {
+    text-decoration: none;
+}
