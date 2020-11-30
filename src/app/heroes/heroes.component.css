@@ -3,7 +3,8 @@
     padding: 1em;
     border-radius: 1em;
     background-color: #F0F0F0;
-    box-shadow: 0px 0px 5px 3px #D7D7D7
+    box-shadow: 0px 0px 5px 3px #D7D7D7;
+    text-align: center;
 }
 
 h2 {
@@ -13,37 +14,94 @@ h2 {
     padding-bottom: 1em;
 }
 
+#add-hero {
+    margin-bottom: 1em;
+}
+
+label {
+    display: inline-block;
+    font-weight: 700;
+    color: #4A4A4A;
+} 
+
+input {
+    margin: 0 0.75em;
+    padding: 0.25em;
+    width: 20%;
+}
+
+#add-button {
+    font-weight: 700;
+    background-color: #FCB949;
+    color: #fff;
+    border: 0;
+    border-radius: 0.5em;
+    padding: 0.75em;
+    box-shadow: 0px 2px 3px 2px #D7D7D7;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+#add-button:hover {
+    background-color: #fff;
+    color: #FCB949;
+}
+
 
 li {
-    padding: 0.5em;
     background-color: #fff;
     color: #A4A4A4;
     border-radius: 0.5em;
     width: 50%;
-    margin-bottom: 0.25em;
+    margin-left: 25%;
+    margin-bottom: 0.5em;
     font-size: 1.2em;
     font-weight: 700;
     transition-property: all;
     transition-duration: 0.5s;
     overflow: hidden;
     box-shadow: 0px 0px 3px 2px #D7D7D7;
+    padding-top: 0.5em;
+
 }
 
 li:hover {
-    margin-left: 1em;
-    background-color: #FCB949;
-    color: #fff;
+    width: 55%;
+    margin-left: 22.5%;
+    color: #FCB949;
 }
 
 a {
     text-decoration: none;
     color: inherit;
+    padding-top: 0.5em;
 }
 
 span {
-    padding: 1em;
-    margin-right: 1em;
-    margin-left: -0.5em;
-    background-color: #2AA684;
+    margin-top: -0.5em;
+    padding: 0.55em 1em;
     color: #fff;
+    width: 2em;
+    background-color: #2AA684;
+    float: left;
 }
+
+.delete {
+    float: right;
+    font-weight: 700;
+    background-color: #A4A4A4;
+    color: #fff;
+    border: 0;
+    border-radius: 0.5em;
+    padding: 0.5em 2em;
+    margin: -0.35em 0.3em 0;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.delete:hover {
+    background-color: #D7D7D7;
+}
+
+
+
